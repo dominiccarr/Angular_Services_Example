@@ -7,8 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
 
-  API_KEY = 'e40d07f00b094602953cc3bf8537477e';
-  //API_KEY = 'get your own at https://newsapi.org/'
+  API_KEY = 'get your own at https://newsapi.org/'
 
   constructor(private httpClient: HttpClient) { }
 
